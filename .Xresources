@@ -1,0 +1,4 @@
+xterm*background: black
+xterm*foreground: white
+xterm*allowTitleOps: true
+xterm*font: *-fixed-*-*-*-18-*
