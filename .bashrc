@@ -5,6 +5,16 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+[[ -f ~/.Xresources ]] && xrdb -merge ~/.Xresources
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
+alias vim='nvim'
+alias yoink='sudo pacman -Sy'
+alias yeet='sudo pacman -R'
+alias flashbang='sudo xbacklight -set 100'
+alias owl='sudo xbacklight -set 5'
+alias screen='sudo xbacklight -set'
+alias arch='neofetch'
+alias archgit='cp ~/gitignore/archconfig/.gitignore ~/.gitinore && git --git-dir=.gitarchconfig'
+alias orggit='cp ~/gitignore/orgdocs/.gitignore ~/.gitinore && git --git-dir=.gitorgdocs'
 PS1='[\u@\h \W]\$ '

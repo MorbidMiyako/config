@@ -9,7 +9,7 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
-set $mod Mod1
+set $mod Mod5
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -59,14 +59,14 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal -T "test" -e tmux 
+bindsym $mod+Return exec i3-sensible-terminal -fa Dejavu -fs 14 -fc Monospace -e tmux
 
 # Applies to any name that contains i3-scratchpad
 for_window [class="i3-scratchpad1"] floating enable
 for_window [class="i3-scratchpad1"] resize set 2000 1200
 for_window [class="i3-scratchpad1"] move scratchpad
 for_window [class="i3-scratchpad1"] border pixel 5
-exec --no-startup-id xterm -class "i3-scratchpad1" -fn *-fixed-*-*-*-20-* -e tmux
+exec_always --no-startup-id xterm -class "i3-scratchpad1" -fa Dejavu -fs 16 -e tmux new -s scratchpad
 bindsym $mod+t [class="i3-scratchpad1"] scratchpad show; [class="i3-scratchpad1"] move position center
 
 # kill focused window
@@ -173,6 +173,8 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+# Suspend
+bindsym $mod+Shift+period exec "slock"
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -218,7 +220,7 @@ bar {
 	font pango:Inconsolata, Icons 16
 	mode hide
     	hidden_state hide
-	modifier Mod1
+	modifier $mod
         colors {
                 background $black
                 separator $white
@@ -229,7 +231,3 @@ bar {
 
         }
 }
-
-# Suspend
-bindsym $mod+Shift+period exec systemctl suspend
-

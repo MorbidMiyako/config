@@ -1,0 +1,15 @@
+#Ignore everything
+/**
+
+
+###############################
+# Un-ignore the affected subdirectory
+!/.config/
+# Ignore subdirectory and all including directories and files to match pattern as valid for the next pattern
+/.config/systemd/
+!/.gitignore
+!/.Xresources
+!/.Xauthority
+!/.bash_profile
+!/.bashrc
+!/.xinitrc

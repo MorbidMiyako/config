@@ -83,8 +83,8 @@ command=~/.config/i3blocks/battery2/battery2
 markup=pango
 interval=30
 
-[volume-pulseaudio]
-command=~/.config/i3blocks/volume-pulseaudio/volume-pulseaudio
+[volume-pipewire]
+command=~/.config/i3blocks/volume-pipewire/volume-pipewire
 interval=once
 signal=1
 #MIXER=[determined automatically]
