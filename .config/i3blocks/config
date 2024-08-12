@@ -78,10 +78,10 @@ LABEL=CPU
 #CRIT_PERCENT=80
 #DECIMALS=2
 
-[battery2]
-command=~/.config/i3blocks/battery2/battery2
-markup=pango
-interval=30
+#[battery2]
+#command=~/.config/i3blocks/battery2/battery2
+#markup=pango
+#interval=30
 
 [volume-pipewire]
 command=~/.config/i3blocks/volume-pipewire/volume-pipewire

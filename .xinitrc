@@ -56,6 +56,9 @@ fi
 
 xrdb .Xresources
 
+xrandr --output DP-1 --rotate left
+bash ~/.screenlayout/screenlayout.sh
+
 i3 &
 #xclock -geometry 50x50-1+1 &
 #xterm -geometry 80x50+494+51 &

@@ -1,4 +1,5 @@
 xterm*background: black
 xterm*foreground: white
 xterm*allowTitleOps: true
-xterm*font: xft:DejavuMono:size=14
+xterm*font: xft:DejavuMono:size=10
+Xcursor.size:8

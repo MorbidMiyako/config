@@ -59,14 +59,14 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal -fa Dejavu -fs 14 -fc Monospace -e tmux
+bindsym $mod+Return exec i3-sensible-terminal -fa Dejavu -fs 8 -fc Monospace -e tmux
 
 # Applies to any name that contains i3-scratchpad
 for_window [class="i3-scratchpad1"] floating enable
-for_window [class="i3-scratchpad1"] resize set 2000 1200
+for_window [class="i3-scratchpad1"] resize set 1000 600
 for_window [class="i3-scratchpad1"] move scratchpad
 for_window [class="i3-scratchpad1"] border pixel 5
-exec_always --no-startup-id xterm -class "i3-scratchpad1" -fa Dejavu -fs 16 -e tmux new -s scratchpad
+exec --no-startup-id xterm -class "i3-scratchpad1" -fa Dejavu -fs 8 -e tmux new -s scratchpad
 bindsym $mod+t [class="i3-scratchpad1"] scratchpad show; [class="i3-scratchpad1"] move position center
 
 # kill focused window
@@ -174,7 +174,7 @@ bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 # Suspend
-bindsym $mod+Shift+period exec "slock"
+bindsym $mod+Shift+period exec systemctl suspend
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -217,7 +217,8 @@ client.urgent           $gray      	$gray      	$white
 # finds out, if available)
 bar {
         status_command i3blocks
-	font pango:Inconsolata, Icons 16
+    # output DP-2
+	font pango:Inconsolata, Icons 8
 	mode hide
     	hidden_state hide
 	modifier $mod
