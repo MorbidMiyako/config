@@ -47,4 +47,3 @@ xorg-xev
 xorg-xinit
 xterm
 zram-generator
-test
