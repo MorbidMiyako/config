@@ -5,11 +5,14 @@ amd-ucode
 base
 base-devel
 bottom
+brave-bin
+discord
 dkms
 dmenu
 efibootmgr
 emacs
 git
+gparted
 grub
 gst-plugin-pipewire
 i3-wm
@@ -33,12 +36,17 @@ pipewire
 pipewire-alsa
 pipewire-jack
 pipewire-pulse
+polkit
+rua
+rua-debug
 scrot
 slock
 sof-firmware
 tmux
 ttf-dejavu
 ttf-font-awesome
+ttf-nerd-fonts-symbols
+ttf-nerd-fonts-symbols-mono
 unclutter
 usbmuxd
 wireplumber
@@ -47,4 +55,3 @@ xorg-xev
 xorg-xinit
 xterm
 zram-generator
-test

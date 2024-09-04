@@ -33,11 +33,11 @@ exec --no-startup-id dex --autostart --environment i3
 
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
-exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
+#exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
-exec --no-startup-id nm-applet
+#exec --no-startup-id nm-applet
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3blocks pkill -RTMIN+1 i3blocks
@@ -62,12 +62,21 @@ tiling_drag modifier titlebar
 bindsym $mod+Return exec i3-sensible-terminal -fa Dejavu -fs 14 -fc Monospace -e tmux
 
 # Applies to any name that contains i3-scratchpad
+# Simple console
 for_window [class="i3-scratchpad1"] floating enable
 for_window [class="i3-scratchpad1"] resize set 2000 1200
 for_window [class="i3-scratchpad1"] move scratchpad
 for_window [class="i3-scratchpad1"] border pixel 5
 exec_always --no-startup-id xterm -class "i3-scratchpad1" -fa Dejavu -fs 16 -e tmux new -s scratchpad
 bindsym $mod+t [class="i3-scratchpad1"] scratchpad show; [class="i3-scratchpad1"] move position center
+
+# Simple calculator
+for_window [class="i3-scratchpad2"] floating enable
+for_window [class="i3-scratchpad2"] resize set 2000 1200
+for_window [class="i3-scratchpad2"] move scratchpad
+for_window [class="i3-scratchpad2"] border pixel 5
+exec_always bash /home/miyako/.config/i3/calculator.sh
+bindsym $mod+c [class="i3-scratchpad2"] scratchpad show; [class="i3-scratchpad2"] move position center
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -173,8 +182,10 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
-# Suspend
-bindsym $mod+Shift+period exec "slock"
+# Locks and suspend
+bindsym --release $mod+Shift+s exec slock systemctl suspend -i
+# Locks and suspend
+bindsym --release $mod+Shift+period exec slock
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -203,31 +214,11 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-# Color shemes for windows 
+# Color schemes for windows 
 set $white	#ffffff
 set $black	#000000
 set $gray	#9e9e9e
-#                       border          background      text            indicator (a line which shows where the next window will be placed)     
-client.focused          $gray		$gray 		$gray		$gray
-client.unfocused        $black		$black 		$white		$black
-client.focused_inactive $black		$black 		$white		$black
-client.urgent           $gray      	$gray      	$white  
+set $red    #ff0000
 
-# Start i3bar to display a workspace bar (plus the system information i3status
-# finds out, if available)
-bar {
-        status_command i3blocks
-	font pango:Inconsolata, Icons 16
-	mode hide
-    	hidden_state hide
-	modifier $mod
-        colors {
-                background $black
-                separator $white
-                #                       border          background      text
-                focused_workspace       $black		$white		$black
-               	inactive_workspace      $white		$black		$white
-                urgent_workspace        $white		$gray		$white   
 
-        }
-}
+include ~/.config/i3/energymodifier

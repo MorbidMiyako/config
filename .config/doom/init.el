@@ -189,3 +189,26 @@
        :config
        ;;literate
        (default +bindings +smartparens))
+
+(defcustom org-hidden-links-additional-re "\\(<<<\\)[[:alnum:]]+\\(>>>\\)"
+  "Regular expression that matches strings where the invisible-property of the sub-matches 1 and 2 is set to org-link."
+  :type '(choice (const :tag "Off" nil) regexp)
+  :group 'org-link)
+(make-variable-buffer-local 'org-hidden-links-additional-re)
+
+(defun org-activate-hidden-links-additional (limit)
+  "Put invisible-property org-link on strings matching `org-hide-links-additional-re'."
+  (if org-hidden-links-additional-re
+      (re-search-forward org-hidden-links-additional-re limit t)
+    (goto-char limit)
+    nil))
+
+(defun org-hidden-links-hook-function ()
+  "Add rule for `org-activate-hidden-links-additional' to `org-font-lock-extra-keywords'.
+You can include this function in `org-font-lock-set-keywords-hook'."
+  (add-to-list 'org-font-lock-extra-keywords
+                              '(org-activate-hidden-links-additional
+                                (1 '(face org-target invisible org-link))
+                (2 '(face org-target invisible org-link)))))
+
+(add-hook 'org-font-lock-set-keywords-hook #'org-hidden-links-hook-function)

@@ -1,5 +1,5 @@
 #Ignore everything
-/*
+/**
 
 
 ###############################
@@ -7,14 +7,11 @@
 !/.config/
 # Ignore subdirectory and all including directories and files to match pattern as valid for the next pattern
 /.config/systemd/
-/.config/rua/
-/.config/BraveSoftware/
-/.config/emacs/
 
-!/pkg/
 !/.gitignore
 !/.Xresources
 !/.Xauthority
 !/.bash_profile
 !/.bashrc
 !/.xinitrc
+!/pkg/
