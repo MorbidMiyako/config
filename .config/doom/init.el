@@ -190,7 +190,7 @@
        ;;literate
        (default +bindings +smartparens))
 
-(defcustom org-hidden-links-additional-re "\\(<<<\\)[[:alnum:]]+\\(>>>\\)"
+(defcustom org-hidden-links-additional-re "\\(<<<\\)[[:ascii:]]+\\(>>>\\)"
   "Regular expression that matches strings where the invisible-property of the sub-matches 1 and 2 is set to org-link."
   :type '(choice (const :tag "Off" nil) regexp)
   :group 'org-link)
