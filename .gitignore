@@ -5,13 +5,16 @@
 ###############################
 # Un-ignore the affected subdirectory
 !/.config/
+# Un-ignore the affected subdirectory and all its subdirectories
 !/.config/**/*
-!/uni/
+
 # Ignore subdirectory and all including directories and files to match pattern as valid for the next pattern
 /.config/systemd/
 /.config/nvim/lazy-lock.json
 /.config/pulse/
 /.config/dconf/
+
+# Ignore all but brave preferences
 !/.config/BraveSoftware/
 /.config/BraveSoftware/**
 !/.config/BraveSoftware/Brave-Browser/
