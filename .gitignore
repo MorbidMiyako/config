@@ -13,15 +13,16 @@
 /.config/nvim/lazy-lock.json
 /.config/pulse/
 /.config/dconf/
+/.config/BraveSoftware/
 
 # Ignore all but brave preferences
-!/.config/BraveSoftware/
-/.config/BraveSoftware/**
-!/.config/BraveSoftware/Brave-Browser/
-/.config/BraveSoftware/Brave-Browser/**
-!/.config/BraveSoftware/Brave-Browser/Default/
-/.config/BraveSoftware/Brave-Browser/Default/**
-!/.config/BraveSoftware/Brave-Browser/Default/Preferences
+# !/.config/BraveSoftware/
+# /.config/BraveSoftware/**
+# !/.config/BraveSoftware/Brave-Browser/
+# /.config/BraveSoftware/Brave-Browser/**
+# !/.config/BraveSoftware/Brave-Browser/Default/
+# /.config/BraveSoftware/Brave-Browser/Default/**
+# !/.config/BraveSoftware/Brave-Browser/Default/Preferences
 
 
 !/.gitignore
