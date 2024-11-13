@@ -13,7 +13,7 @@
 /.config/nvim/lazy-lock.json
 /.config/pulse/
 /.config/dconf/
-/.config/
+/.config/BraveSoftware/
 # Ignore all but brave preferences
 # !/.config/BraveSoftware/
 # /.config/BraveSoftware/**
