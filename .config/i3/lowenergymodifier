@@ -1,0 +1,7 @@
+# low #
+# Colors dependent on energy
+set $energy     #ff0000
+set $energybar  #ff0000
+set $mode       hide
+
+include ~/.config/i3/i3windowconfig
