@@ -14,6 +14,14 @@
 /.config/pulse/
 /.config/dconf/
 /.config/BraveSoftware/
+/.config/JetBrains/
+/.config/discord/
+/.config/discord/
+/.config/rua/
+/.config/ticktick/
+/.config/pavucontrol.ini
+/.config/emacs/
+
 # Ignore all but brave preferences
 # !/.config/BraveSoftware/
 # /.config/BraveSoftware/**

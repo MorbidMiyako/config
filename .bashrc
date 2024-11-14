@@ -6,6 +6,7 @@
 [[ $- != *i* ]] && return
 
 [[ -f ~/.Xresources ]] && xrdb -merge ~/.Xresources
+
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias vim='nvim'
