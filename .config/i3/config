@@ -176,6 +176,16 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 # Suspend
 bindsym $mod+Shift+period exec systemctl suspend
 
+# fullscreenshot to clipboard
+bindsym $mod+p exec "scrot -q 100 - | xclip -selection clipboard -target image/png"
+# fullscreenshot to screenshot folder
+bindsym $mod+Control+p exec "scrot -q 100 -F ~/screenshots/scrot/screenshot"
+# select screenshot to clipboard
+bindsym --release $mod+Shift+p exec "scrot -q 100 -f -s - | xclip -selection clipboard -target image/png"
+# select sreenshot to screenshot folder
+bindsym --release $mod+Control+Shift+p exec "scrot -q 100 -f -s -F ~/screenshots/scrot/screenshot"
+
+
 # resize window (you can also use the mouse for that)
 mode "resize" {
         # These bindings trigger as soon as you enter the resize mode
