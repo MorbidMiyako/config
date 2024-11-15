@@ -107,5 +107,5 @@ MUTED_COLOR="#a0a0a0"
 
 # Update time every 5 seconds
 [time]
-command=date +%T 
+command=date +'%T %D %W' 
 interval=1

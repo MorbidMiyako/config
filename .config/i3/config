@@ -33,11 +33,11 @@ exec --no-startup-id dex --autostart --environment i3
 
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
-exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
+#exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
-exec --no-startup-id nm-applet
+#exec --no-startup-id nm-applet
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3blocks pkill -RTMIN+1 i3blocks
@@ -62,12 +62,70 @@ tiling_drag modifier titlebar
 bindsym $mod+Return exec i3-sensible-terminal -fa Dejavu -fs 8 -fc Monospace -e tmux
 
 # Applies to any name that contains i3-scratchpad
-for_window [class="i3-scratchpad1"] floating enable
-for_window [class="i3-scratchpad1"] resize set 1000 600
-for_window [class="i3-scratchpad1"] move scratchpad
-for_window [class="i3-scratchpad1"] border pixel 5
-exec --no-startup-id xterm -class "i3-scratchpad1" -fa Dejavu -fs 8 -e tmux new -s scratchpad
-bindsym $mod+t [class="i3-scratchpad1"] scratchpad show; [class="i3-scratchpad1"] move position center
+# template for scratchpad terminal
+# $name
+# $command
+# $fontsize
+# $shortcut
+# exec_always --no-startup-id ~/.config/i3/overlayterminal.sh "$name" "$command" $fontsize
+# for_window [class="i3-scratchpad-$name"] floating enable
+# for_window [class="i3-scratchpad-$name"] resize set 2000 1200
+# for_window [class="i3-scratchpad-$name"] move scratchpad
+# for_window [class="i3-scratchpad-$name"] border pixel 5
+# bindsym $shortcut exec --no-startup-id ~/.config/i3/overlayterminal.sh "$name" "$command" $fontsize; [class="i3-scratchpad-$name"] scratchpad show; [class="i3-scratchpad-$name"] move position center
+#
+# template for scratchpad program
+# $name
+# $command
+# $pgrepquery
+# $shortcut
+# exec_always --no-startup-id ~/.config/i3/overlayprogram.sh "$pgrepquery" "$command"
+# for_window [class="$name"] floating enable
+# for_window [class="$name"] resize set 2000 1200
+# for_window [class="$name"] move scratchpad
+# for_window [class="$name"] border pixel 5
+# bindsym $shortcut exec --no-startup-id ~/.config/i3/overlayprogram.sh "$name" "$command"; [class="$name"] scratchpad show; [class="$name"] move position center
+
+# Simple console
+exec_always --no-startup-id ~/.config/i3/overlayterminal.sh "terminal_1" "tmux" 8
+for_window [class="i3-scratchpad-terminal_1"] floating enable
+for_window [class="i3-scratchpad-terminal_1"] resize set 1000 600
+for_window [class="i3-scratchpad-terminal_1"] move scratchpad
+for_window [class="i3-scratchpad-terminal_1"] border pixel 5
+bindsym $mod+t exec --no-startup-id ~/.config/i3/overlayterminal.sh "terminal_1" "tmux" 8; [class="i3-scratchpad-terminal_1"] scratchpad show; [class="i3-scratchpad-terminal_1"] move position center
+
+# Simple console
+exec_always --no-startup-id ~/.config/i3/overlayterminal.sh "terminal_2" "tmux" 8
+for_window [class="i3-scratchpad-terminal_2"] floating enable
+for_window [class="i3-scratchpad-terminal_2"] resize set 1000 600
+for_window [class="i3-scratchpad-terminal_2"] move scratchpad
+for_window [class="i3-scratchpad-terminal_2"] border pixel 5
+bindsym $mod+Shift+t exec --no-startup-id ~/.config/i3/overlayterminal.sh "terminal_2" "tmux" 8; [class="i3-scratchpad-terminal_2"] scratchpad show; [class="i3-scratchpad-terminal_2"] move position center
+
+# Simple calculator
+exec_always --no-startup-id ~/.config/i3/overlayterminal.sh "calculator_1" "kalker" 12
+for_window [class="i3-scratchpad-calculator_1"] floating enable
+for_window [class="i3-scratchpad-calculator_1"] resize set 1800 1000
+for_window [class="i3-scratchpad-calculator_1"] move scratchpad
+for_window [class="i3-scratchpad-calculator_1"] border pixel 5
+bindsym $mod+Control+c exec --no-startup-id ~/.config/i3/overlayterminal.sh "calculator_1" "kalker" 12; [class="i3-scratchpad-calculator_1"] scratchpad show; [class="i3-scratchpad-calculator_1"] move position center
+
+# Sound application
+exec_always --no-startup-id ~/.config/i3/overlayprogram.sh "pavucontrol" "pavucontrol"
+for_window [class="pavucontrol"] floating enable
+for_window [class="pavucontrol"] resize set 1000 600
+for_window [class="pavucontrol"] move scratchpad
+for_window [class="pavucontrol"] border pixel 5
+bindsym $mod+Control+s exec --no-startup-id ~/.config/i3/overlayprogram.sh "pavucontrol" "pavucontrol"; [class="pavucontrol"] scratchpad show; [class="pavucontrol"] move position center
+
+# Discord application
+exec_always --no-startup-id ~/.config/i3/overlayprogram.sh "-fa discord" "discord"
+for_window [class="discord"] floating enable
+for_window [class="discord"] resize set 2600 1800
+for_window [class="discord"] move scratchpad
+for_window [class="discord"] border pixel 5
+bindsym $mod+Control+d exec --no-startup-id ~/.config/i3/overlayprogram.sh "discord" "discord"; [class="discord"] scratchpad show; [class="discord"] move position center
+>>>>>>> a6eb089d944aab0be07ba8bd762385f9b19e4c05
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -173,18 +231,22 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
-# Suspend
-bindsym $mod+Shift+period exec systemctl suspend
+# Locks and suspend
+bindsym --release $mod+Shift+s exec slock systemctl suspend -i
+# Locks and suspend
+bindsym --release $mod+Shift+period exec slock
 
-# fullscreenshot to clipboard
-bindsym $mod+p exec "scrot -q 100 - | xclip -selection clipboard -target image/png"
-# fullscreenshot to screenshot folder
-bindsym $mod+Control+p exec "scrot -q 100 -F ~/screenshots/scrot/screenshot"
-# select screenshot to clipboard
-bindsym --release $mod+Shift+p exec "scrot -q 100 -f -s - | xclip -selection clipboard -target image/png"
-# select sreenshot to screenshot folder
-bindsym --release $mod+Control+Shift+p exec "scrot -q 100 -f -s -F ~/screenshots/scrot/screenshot"
+# Screenshot to clipboard
+bindsym $mod+p exec "scrot '%F_%T.png' -q 100 -e 'xclip -selection clip -t image/png $f'"
 
+# Screenshot to clipboard and save
+bindsym $mod+Control+p exec "scrot '%F_%T.png' -q 100 -e 'xclip -selection clip -t image/png $f; mv $f ~/screenshots/scrot'"
+
+# Screenshot selected to clipboard
+bindsym $mod+Shift+p exec "scrot '%F_%T.png' -q 100 -f -s  -e 'xclip -selection clip -t image/png $f'"
+
+# Screenshot selected to clipboard and save
+bindsym $mod+Control+Shift+p exec "scrot '%F_%T.png' -q 100 -f -s  -e 'xclip -selection clip -t image/png $f; mv $f ~/screenshots/scrot'"
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -213,15 +275,11 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-# Color shemes for windows 
+# Color schemes for windows 
 set $white	#ffffff
 set $black	#000000
 set $gray	#9e9e9e
-#                       border          background      text            indicator (a line which shows where the next window will be placed)     
-client.focused          $gray		$gray 		$gray		$gray
-client.unfocused        $black		$black 		$white		$black
-client.focused_inactive $black		$black 		$white		$black
-client.urgent           $gray      	$gray      	$white  
+set $red    #ff0000
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
