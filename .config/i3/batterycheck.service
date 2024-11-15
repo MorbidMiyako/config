@@ -1,6 +1,0 @@
-[Unit]
-Description=custom i3 battery notificatier
-[Service]
-ExecStart=/home/miyako/.config/i3/batterycheck.sh
-[Install]
-WantedBy=multi-user.target
