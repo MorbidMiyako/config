@@ -87,11 +87,13 @@ unclutter
 unzip
 usbmuxd
 vi
+wget
 wireplumber
 xclip
 xorg-server
 xorg-xev
 xorg-xinit
+xorg-xrandr
 xterm
 z3
 zram-generator

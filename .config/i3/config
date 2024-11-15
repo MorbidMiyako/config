@@ -125,7 +125,6 @@ for_window [class="discord"] resize set 2600 1800
 for_window [class="discord"] move scratchpad
 for_window [class="discord"] border pixel 5
 bindsym $mod+Control+d exec --no-startup-id ~/.config/i3/overlayprogram.sh "discord" "discord"; [class="discord"] scratchpad show; [class="discord"] move position center
->>>>>>> a6eb089d944aab0be07ba8bd762385f9b19e4c05
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -279,7 +278,13 @@ bindsym $mod+r mode "resize"
 set $white	#ffffff
 set $black	#000000
 set $gray	#9e9e9e
-set $red    #ff0000
+set $red        #ff0000
+
+#                       border          background      text            indicator (a line which shows where the next window will be placed)
+client.focused          $gray		$energy		$gray		$energy
+client.unfocused        $black		$black 		$white		$black
+client.focused_inactive $black		$black 		$white		$black
+client.urgent           $gray      	$gray      	$white
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
@@ -295,7 +300,7 @@ bar {
                 separator $white
                 #                       border          background      text
                 focused_workspace       $black		$white		$black
-               	inactive_workspace      $white		$black		$white
+                inactive_workspace      $white		$black		$white
                 urgent_workspace        $white		$gray		$white   
 
         }

@@ -1,7 +1,3 @@
-hakuneko-desktop-bin
-kalker
 mcrl2
-qtspim
 rua
 rua-debug
-ticktick
