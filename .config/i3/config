@@ -237,13 +237,14 @@ bindsym --release $mod+Shift+s exec slock systemctl suspend -i
 bindsym --release $mod+Shift+period exec slock
 
 # Screenshot to clipboard
-bindsym $mod+p exec "scrot '%F_%T.png' -q 100 -e 'xclip -selection clip -t image/png $f'"
+bindsym $mod+p exec "scrot -q 100 - | xclip -selection clip -t image/png"
 
 # Screenshot to clipboard and save
 bindsym $mod+Control+p exec "scrot '%F_%T.png' -q 100 -e 'xclip -selection clip -t image/png $f; mv $f ~/screenshots/scrot'"
 
 # Screenshot selected to clipboard
-bindsym $mod+Shift+p exec "scrot '%F_%T.png' -q 100 -f -s  -e 'xclip -selection clip -t image/png $f'"
+bindsym $mod+Shift+p exec "scrot -q 100 -f -s - | xclip -selection clip -t image/png"
+
 
 # Screenshot selected to clipboard and save
 bindsym $mod+Control+Shift+p exec "scrot '%F_%T.png' -q 100 -f -s  -e 'xclip -selection clip -t image/png $f; mv $f ~/screenshots/scrot'"
