@@ -30,6 +30,7 @@ i3lock
 i3status
 iwd
 libpulse
+libvirt
 linux
 linux-firmware
 linux-headers
