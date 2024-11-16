@@ -23,6 +23,7 @@
 /.config/emacs/
 /.config/QtProject.conf
 /.config/mCRL2/
+/.config/VirtualBox/
 
 # Ignore all but brave preferences
 # !/.config/BraveSoftware/
