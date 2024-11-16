@@ -21,6 +21,7 @@
 /.config/ticktick/
 /.config/pavucontrol.ini
 /.config/emacs/
+/.config/VirtualBox/
 
 # Ignore all but brave preferences
 # !/.config/BraveSoftware/
