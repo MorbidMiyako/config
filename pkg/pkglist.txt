@@ -51,6 +51,7 @@ pipewire-pulse
 polkit
 poppler-glib
 python-virtualenv
+qemu-full
 ripgrep
 scrot
 slock
