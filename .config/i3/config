@@ -121,7 +121,7 @@ bindsym $mod+Control+s exec --no-startup-id ~/.config/i3/overlayprogram.sh "pavu
 # Discord application
 exec_always --no-startup-id ~/.config/i3/overlayprogram.sh "-fa discord" "discord"
 for_window [class="discord"] floating enable
-for_window [class="discord"] resize set 2600 1800
+for_window [class="discord"] resize set 2800 1200
 for_window [class="discord"] move scratchpad
 for_window [class="discord"] border pixel 5
 bindsym $mod+Control+d exec --no-startup-id ~/.config/i3/overlayprogram.sh "discord" "discord"; [class="discord"] scratchpad show; [class="discord"] move position center

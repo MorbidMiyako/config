@@ -1,3 +1,6 @@
+clion
+clion-jre
+kalker
 mcrl2
 rua
 rua-debug
