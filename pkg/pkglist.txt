@@ -29,6 +29,7 @@ i3blocks
 i3lock
 i3status
 iwd
+jdk-openjdk
 libimobiledevice
 libpulse
 linux

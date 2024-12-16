@@ -230,10 +230,12 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+# Locks
+bindsym --release $mod+s exec slock systemctl suspend -i
 # Locks and suspend
 bindsym --release $mod+Shift+s exec slock systemctl suspend -i
-# Locks and suspend
-bindsym --release $mod+Shift+period exec slock
+# Locks and hibernate 
+bindsym --release $mod+Shift+Control+s exec slock systemctl hibernate -i
 
 # Screenshot to clipboard
 bindsym $mod+p exec "scrot -q 100 - | xclip -selection clip -t image/png"
