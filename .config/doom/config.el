@@ -91,3 +91,30 @@
 )
 
 ;;(add-hook `pdf-view-mode-hook #`(lambda() (interactive) (display-line-numbers-mode -1)))
+
+;;; SMV mode
+(autoload 'smv-mode "smv-mode" "SMV specifications editing mode." t)
+(setq auto-mode-alist
+      (append  (list '("\\.smv$" . smv-mode) '("\\.ord$" . smv-ord-mode))
+	       auto-mode-alist))
+(setq completion-ignored-extensions
+      (cons ".ord" (cons ".opt" completion-ignored-extensions)))
+
+;;;; Of course, the file smv-mode.el must be in one of the directories in your
+;;;; `load-path'. C-h v load-path to see the list, or `cons' your own path:
+;;;; (setq load-path (cons "/the/full/path/to-your/dir" load-path))
+;;;;
+;;;; To turn the font-lock on by default, put in .emacs
+ ;;;; (global-font-lock-mode t) ;; if you use gnu-emacs, or
+;;;; (setq-default font-lock-auto-fontify t) ;; if you use xemacs.
+;;;;
+;;;; In GNU emacs faces `font-lock-preprocessor-face' and
+;;;; `font-lock-variable-name-face' may not be predefined.
+;;;; In this case they are defined automatically when smv-mode.el
+;;;; is loaded the first time. You can also define them yourself in .emacs:
+;;;;
+;;;; ;;; Make faces that are not in gnu-emacs font-lock by default
+;;;; (defvar font-lock-preprocessor-face 'font-lock-preprocessor-face)
+;;;; (defvar font-lock-variable-name-face 'font-lock-variable-name-face)
+;;;; (make-face 'font-lock-preprocessor-face)
+;;;; (make-face 'font-lock-variable-name-face)
