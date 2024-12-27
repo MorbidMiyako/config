@@ -9,7 +9,6 @@
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
-alias vim='nvim'
 alias yoink='sudo pacman -S'
 alias yeet='sudo pacman -R'
 alias flashbang='sudo xbacklight -set 100'

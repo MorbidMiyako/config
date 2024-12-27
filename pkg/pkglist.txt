@@ -30,6 +30,8 @@ i3lock
 i3status
 iwd
 jdk-openjdk
+jdk17-openjdk
+jdk8-openjdk
 libimobiledevice
 libpulse
 linux
@@ -89,6 +91,7 @@ unarchiver
 unclutter
 usbmuxd
 vi
+vim
 virt-manager
 wireplumber
 xclip
