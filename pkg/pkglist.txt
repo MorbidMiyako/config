@@ -28,8 +28,10 @@ i3-wm
 i3blocks
 i3lock
 i3status
+inetutils
 iwd
 jdk-openjdk
+jdk17-openjdk
 libpulse
 libvirt
 linux
@@ -90,6 +92,7 @@ unclutter
 unzip
 usbmuxd
 vi
+vim
 wget
 wireplumber
 xclip

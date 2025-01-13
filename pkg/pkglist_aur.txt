@@ -1,5 +1,3 @@
-clion
-clion-jre
 intellij-idea-ultimate-edition
 intellij-idea-ultimate-edition-jre
 kalker
