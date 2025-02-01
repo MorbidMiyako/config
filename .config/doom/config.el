@@ -100,6 +100,14 @@
 (setq completion-ignored-extensions
       (cons ".ord" (cons ".opt" completion-ignored-extensions)))
 
+(after! org-download
+      (setq org-download-method 'directory)
+      (setq org-download-image-dir (concat (file-name-sans-extension (buffer-file-name)) "-img"))
+      (setq org-download-image-org-width 600)
+      (setq org-download-link-format "[[file:%s]]\n"
+        org-download-abbreviate-filename-function #'file-relative-name)
+      (setq org-download-link-format-function #'org-download-link-format-function-default))
+
 ;;;; Of course, the file smv-mode.el must be in one of the directories in your
 ;;;; `load-path'. C-h v load-path to see the list, or `cons' your own path:
 ;;;; (setq load-path (cons "/the/full/path/to-your/dir" load-path))

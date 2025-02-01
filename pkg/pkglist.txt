@@ -40,6 +40,7 @@ linux-headers
 linux-lts
 man-db
 mtools
+mupdf
 neofetch
 neovim
 noto-fonts-emoji
@@ -48,6 +49,7 @@ openssh
 os-prober
 pandoc-cli
 pavucontrol
+pdfslicer
 pipewire
 pipewire-alsa
 pipewire-jack
@@ -96,6 +98,7 @@ vim
 wget
 wireplumber
 xclip
+xdotool
 xorg-server
 xorg-xev
 xorg-xinit

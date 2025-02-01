@@ -172,17 +172,17 @@ bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
 bindsym $mod+s layout stacking
-bindsym $mod+w layout tabbed
-bindsym $mod+e layout toggle split
+# bindsym $mod+w layout tabbed
+# bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
-bindsym $mod+Shift+space floating toggle
+# bindsym $mod+Shift+space floating toggle
 
 # change focus between tiling / floating windows
-bindsym $mod+space focus mode_toggle
+# bindsym $mod+space focus mode_toggle
 
 # focus the parent container
-bindsym $mod+a focus parent
+# bindsym $mod+a focus parent
 
 # focus the child container
 #bindsym $mod+d focus child
@@ -199,6 +199,7 @@ set $ws7 "7"
 set $ws8 "8"
 set $ws9 "9"
 set $ws10 "10"
+set $ws99 "99"
 
 # switch to workspace
 bindsym $mod+1 workspace number $ws1
@@ -256,10 +257,14 @@ mode "resize" {
         # Pressing right will grow the window’s width.
         # Pressing up will shrink the window’s height.
         # Pressing down will grow the window’s height.
-        bindsym h resize shrink width 10 px or 10 ppt
-        bindsym j resize grow height 10 px or 10 ppt
-        bindsym k resize shrink height 10 px or 10 ppt
-        bindsym l resize grow width 10 px or 10 ppt
+        bindsym h resize shrink width 1 px or 1 ppt
+        bindsym j resize grow height 1 px or 1 ppt
+        bindsym k resize shrink height 1 px or 1 ppt
+        bindsym l resize grow width 1 px or 1 ppt
+        bindsym Shift+h resize shrink width 10 px or 10 ppt
+        bindsym Shift+j resize grow height 10 px or 10 ppt
+        bindsym Shift+k resize shrink height 10 px or 10 ppt
+        bindsym Shift+l resize grow width 10 px or 10 ppt
 
         # same bindings, but for the arrow keys
         bindsym Left resize shrink width 10 px or 10 ppt
@@ -274,6 +279,32 @@ mode "resize" {
 }
 
 bindsym $mod+r mode "resize"
+
+mode "vim" {
+	# cursor movement
+	bindsym h exec xdotool mousemove_relative -- -5 0
+	bindsym Shift+h exec xdotool mousemove_relative -- -50 0
+	bindsym j exec xdotool mousemove_relative 0 5
+	bindsym Shift+j exec xdotool mousemove_relative 0 50
+	bindsym k exec xdotool mousemove_relative -- 0 -5
+	bindsym Shift+k exec xdotool mousemove_relative -- 0 -50
+	bindsym l exec xdotool mousemove_relative 5 0
+	bindsym Shift+l exec xdotool mousemove_relative 50 0
+	
+	# scrolling
+	bindsym Mod1+j exec xdotool click 5
+	bindsym Mod1+k exec xdotool click 4
+
+	# clicking
+	bindsym space exec xdotool mousedown 1
+	bindsym --release space exec xdotool mouseup 1
+	bindsym --release Shift+space exec xdotool click 3
+
+	# mode changes
+	bindsym Escape mode "default"
+}
+
+bindsym $mod+c mode "vim"
 
 # Color schemes for windows 
 set $white	#ffffff
