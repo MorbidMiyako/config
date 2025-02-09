@@ -1,0 +1,21 @@
+[2025-02-01 12:41:03.416] [default] [info] Welcome to PDF Slicer
+[2025-02-01 12:41:03.416] [default] [info] Logging to file: /home/miyako/.config/com.github.junrrein.PDFSlicer/log.txt
+[2025-02-01 12:41:03.435] [default] [warning] Error while loading config file: No such file or directory
+[2025-02-01 12:41:03.441] [default] [warning] Error while loading window state: Key file does not have group “window-state”
+[2025-02-01 12:41:03.441] [default] [warning] Error while loading zoom level: Key file does not have group “misc”
+[2025-02-02 01:37:10.973] [default] [info] Welcome to PDF Slicer
+[2025-02-02 01:37:10.973] [default] [info] Logging to file: /home/miyako/.config/com.github.junrrein.PDFSlicer/log.txt
+[2025-02-02 18:07:02.108] [default] [info] Welcome to PDF Slicer
+[2025-02-02 18:07:02.108] [default] [info] Logging to file: /home/miyako/.config/com.github.junrrein.PDFSlicer/log.txt
+[2025-02-02 18:07:09.962] [default] [info] Welcome to PDF Slicer
+[2025-02-02 18:07:09.962] [default] [info] Logging to file: /home/miyako/.config/com.github.junrrein.PDFSlicer/log.txt
+[2025-02-02 18:07:54.334] [default] [info] Welcome to PDF Slicer
+[2025-02-02 18:07:54.334] [default] [info] Logging to file: /home/miyako/.config/com.github.junrrein.PDFSlicer/log.txt
+[2025-02-03 11:16:43.750] [default] [info] Welcome to PDF Slicer
+[2025-02-03 11:16:43.750] [default] [info] Logging to file: /home/miyako/.config/com.github.junrrein.PDFSlicer/log.txt
+[2025-02-03 11:25:43.910] [default] [info] Welcome to PDF Slicer
+[2025-02-03 11:25:43.910] [default] [info] Logging to file: /home/miyako/.config/com.github.junrrein.PDFSlicer/log.txt
+[2025-02-03 16:55:24.608] [default] [info] Welcome to PDF Slicer
+[2025-02-03 16:55:24.608] [default] [info] Logging to file: /home/miyako/.config/com.github.junrrein.PDFSlicer/log.txt
+[2025-02-04 16:37:43.162] [default] [info] Welcome to PDF Slicer
+[2025-02-04 16:37:43.162] [default] [info] Logging to file: /home/miyako/.config/com.github.junrrein.PDFSlicer/log.txt
