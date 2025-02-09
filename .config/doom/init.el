@@ -194,14 +194,25 @@
 
 (use-package pdf-tools
   :defer t
-  ;; :commands (pdf-loader-install)
+  ;;:commands (pdf-tools-install)
   :mode "\\.pdf\\'"
   :bind (:map pdf-view-mode-map
               ("j" . pdf-view-next-line-or-next-page)
               ("k" . pdf-view-previous-line-or-previous-page)
               ("C-=" . pdf-view-enlarge)
               ("C--" . pdf-view-shrink))
-  ;; :init (pdf-loader-install)
+  ;;:init (pdf-tools-install)
   :config (add-to-list 'revert-without-query ".pdf"))
 
+(add-to-list 'auto-mode-alist '("\\.pdf$" . pdf-view-mode))
+
 (add-hook 'pdf-view-mode-hook #'(lambda () (interactive) (display-line-numbers-mode -1)))
+
+;; associate .m file with the matlab-mode (major mode)
+(add-to-list 'auto-mode-alist '("\\.m$" . matlab-mode))
+(add-to-list 'auto-mode-alist '("\\.mat$" . matlab-mode))
+
+;; setup matlab-shell
+(setq matlab-shell-command "/usr/local/MATLAB/R2024b/bin/matlab")
+(setq matlab-shell-command-switches (list "-nodesktop"))
+

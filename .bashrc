@@ -17,6 +17,7 @@ alias screen='sudo xbacklight -set'
 alias arch='neofetch'
 alias archgit='pacman -Qqen > ~/pkg/pkglist.txt && pacman -Qqem > ~/pkg/pkglist_aur.txt && cp ~/gitignore/archconfig/.gitignore ~/.gitignore && git --git-dir=.gitarchconfig'
 alias orggit='cp ~/gitignore/orgdocs/.gitignore ~/.gitignore && git --git-dir=.gitorgdocs'
-alias pvt='qemu-system-x86_64 -m 8192 -usbdevice tablet -smp 12 -vga virtio -device virtio-blk-pci,drive=hd0 -drive if=none,id=hd0,file=/home/miyako/qemu/PVT/PVT-VM-2024-disk001.img,format=raw -enable-kvm'
+#alias pvt='qemu-system-x86_64 -m 8192 -usbdevice tablet -smp 12 -vga virtio -device virtio-blk-pci,drive=hd0 -drive if=none,id=hd0,file=/home/miyako/qemu/PVT/PVT-VM-2024-disk001.img,format=raw -enable-kvm'
+alias matlab='/usr/local/MATLAB/R2024b/bin/matlab'
 alias nusmv="/home/miyako/pkg/other/NuSMV-2.7.0-linux64/bin/NuSMV"
 PS1='[\u@\h \W]\$ '
