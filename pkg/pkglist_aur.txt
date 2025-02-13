@@ -1,3 +1,4 @@
+eclipse-java-bin
 hakuneko-desktop-bin
 intellij-idea-ultimate-edition
 intellij-idea-ultimate-edition-jre

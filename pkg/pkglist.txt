@@ -49,6 +49,7 @@ nvidia-dkms
 openssh
 os-prober
 pandoc-cli
+patchelf
 pavucontrol
 pdfslicer
 pipewire
@@ -96,6 +97,7 @@ usbmuxd
 vi
 vim
 virt-manager
+wget
 wireplumber
 xclip
 xorg-server

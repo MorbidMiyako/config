@@ -191,3 +191,8 @@
        :config
        ;;literate
        (default +bindings +smartparens))
+
+(add-to-list 'auto-mode-alist '("\\.mat$" . matlab-mode))
+
+(setq matlab-shell-command "/usr/local/MATLAB/R2024b/bin/matlab")
+(setq matlab-shell-command-switches (list "-nodesktop"))
