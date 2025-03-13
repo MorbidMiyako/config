@@ -86,8 +86,17 @@
               ("k" . pdf-view-previous-line-or-previous-page)
               ("C-=" . pdf-view-enlarge)
               ("C--" . pdf-view-shrink))
-  ;;:init (pdf-tools-install)
+  :init (pdf-tools-install)
   ;;:config (add-to-list `revert-without-query ".pdf")
-)
+  )
 
 ;;(add-hook `pdf-view-mode-hook #`(lambda() (interactive) (display-line-numbers-mode -1)))
+
+(add-to-list 'auto-mode-alist '("\\.pdf$" . pdf-view-mode))
+
+(add-to-list 'auto-mode-alist '("\\.mat$" . matlab-mode))
+
+(setq matlab-shell-command "/usr/local/MATLAB/R2024b/bin/matlab")
+(setq matlab-shell-command-switches (list "-nodesktop"))
+
+(setq ein:output-area-inlined-images t)

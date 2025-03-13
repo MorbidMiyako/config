@@ -6,6 +6,7 @@ alsa-utils
 amd-ucode
 arandr
 arch-install-scripts
+atomix
 base
 base-devel
 bluez
@@ -25,12 +26,14 @@ gparted
 graphviz
 grub
 gst-plugin-pipewire
+htop
 i3-wm
 i3blocks
 i3lock
 i3status
 iwd
 jdk-openjdk
+jdk11-openjdk
 jdk17-openjdk
 jdk8-openjdk
 libimobiledevice
@@ -45,6 +48,7 @@ mupdf
 neofetch
 neovim
 noto-fonts-emoji
+npm
 nvidia-dkms
 openssh
 os-prober
@@ -60,6 +64,7 @@ polkit
 poppler-glib
 python-virtualenv
 ripgrep
+screen
 scrot
 slock
 sof-firmware
@@ -105,4 +110,5 @@ xorg-xev
 xorg-xinit
 xterm
 z3
+zip
 zram-generator

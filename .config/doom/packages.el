@@ -8,6 +8,10 @@
 
 ;; To install SOME-PACKAGE from MELPA, ELPA or emacsmirror:
 ;; (package! some-package)
+(package! matlab-mode)
+(package! pdf-tools)
+(package! ein)
+(package! conda)
 
 ;; To install a package directly from a remote git repo, you must specify a
 ;; `:recipe'. You'll find documentation on what `:recipe' accepts here:
