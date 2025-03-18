@@ -24,6 +24,7 @@ gparted
 graphviz
 grub
 gst-plugin-pipewire
+gtkwave
 i3-wm
 i3blocks
 i3lock
@@ -43,6 +44,7 @@ mtools
 mupdf
 neofetch
 neovim
+networkmanager
 noto-fonts-emoji
 nvidia-dkms
 openssh

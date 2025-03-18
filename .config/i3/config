@@ -126,6 +126,14 @@ for_window [class="discord"] move scratchpad
 for_window [class="discord"] border pixel 5
 bindsym $mod+Control+d exec --no-startup-id ~/.config/i3/overlayprogram.sh "discord" "discord"; [class="discord"] scratchpad show; [class="discord"] move position center
 
+# EduVPN application
+exec_always --no-startup-id ~/.config/i3/overlayprogram.sh "-fa Eduvpn-gui" "eduvpn-gui"
+for_window [class="Eduvpn-gui"] floating enable
+for_window [class="Eduvpn-gui"] resize set 1000 600
+for_window [class="Eduvpn-gui"] move scratchpad
+for_window [class="Eduvpn-gui"] border pixel 5
+bindsym $mod+Control+v exec --no-startup-id ~/.config/i3/overlayprogram.sh "Eduvpn-gui" "eduvpn-gui"; [class="Eduvpn-gui"] scratchpad show; [class="Eduvpn-gui"] move position center
+
 # kill focused window
 bindsym $mod+Shift+q kill
 

@@ -79,7 +79,7 @@
 ;;
 (use-package pdf-tools
   ;;:defer t
-  ;;:commands (pdf-tools-install)
+  :commands (pdf-tools-install)
   :mode "\\.pdf\\'"
   :bind (:map pdf-view-mode-map
               ("j" . pdf-view-next-line-or-next-page)
