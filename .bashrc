@@ -19,6 +19,8 @@ alias arch='neofetch'
 alias archgit='pacman -Qqen > ~/pkg/pkglist.txt && pacman -Qqem > ~/pkg/pkglist_aur.txt && cp ~/gitignore/archconfig/.gitignore ~/.gitignore && git --git-dir=.gitarchconfig'
 alias orggit='cp ~/gitignore/orgdocs/.gitignore ~/.gitignore && git --git-dir=.gitorgdocs'
 alias luvm='qemu-system-x86_64 -m 8192 -usbdevice tablet -smp 12 -vga virtio -device virtio-blk-pci,drive=hd0 -drive if=none,id=hd0,file=/home/miyako/qemu/LucrumVM/Lucrum.img,format=raw -enable-kvm'
+alias softevol='qemu-system-x86_64 -m 8192 -usbdevice tablet -smp 12 -vga virtio -device virtio-blk-pci,drive=hd0 -device virtio-blk-pci,drive=hd1 -drive if=none,id=hd1,file=/home/miyako/qemu/Joplin/ubuntuswap.cow -drive if=none,id=hd0,file=/home/miyako/qemu/Joplin/ubuntu.cow -enable-kvm'
+
 alias matlab='/usr/local/MATLAB/R2024b/bin/matlab'
 PS1='[\u@\h \W]\$ '
 

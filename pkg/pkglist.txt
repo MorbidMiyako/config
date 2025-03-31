@@ -31,6 +31,8 @@ i3-wm
 i3blocks
 i3lock
 i3status
+iperf
+iperf3
 iwd
 jdk-openjdk
 jdk11-openjdk
@@ -69,6 +71,7 @@ scrot
 slock
 sof-firmware
 strace
+tailscale
 texlive-basic
 texlive-bibtexextra
 texlive-binextra
@@ -105,10 +108,12 @@ virt-manager
 wget
 wireplumber
 xclip
+xdot
 xorg-server
 xorg-xev
 xorg-xinit
 xterm
+yarn
 z3
 zip
 zram-generator
