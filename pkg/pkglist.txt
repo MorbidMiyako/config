@@ -1,6 +1,6 @@
 7zip
 acpi
-acpilight
+aircrack-ng
 alsa-firmware
 alsa-utils
 amd-ucode
@@ -19,6 +19,7 @@ dmenu
 dosfstools
 efibootmgr
 emacs
+exfatprogs
 fd
 gdb
 git
@@ -68,6 +69,7 @@ python-virtualenv
 ripgrep
 screen
 scrot
+sl
 slock
 sof-firmware
 strace
@@ -107,6 +109,7 @@ vim
 virt-manager
 wget
 wireplumber
+wireshark-cli
 xclip
 xdot
 xorg-server

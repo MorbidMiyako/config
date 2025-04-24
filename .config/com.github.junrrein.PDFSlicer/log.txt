@@ -19,3 +19,5 @@
 [2025-02-03 16:55:24.608] [default] [info] Logging to file: /home/miyako/.config/com.github.junrrein.PDFSlicer/log.txt
 [2025-02-04 16:37:43.162] [default] [info] Welcome to PDF Slicer
 [2025-02-04 16:37:43.162] [default] [info] Logging to file: /home/miyako/.config/com.github.junrrein.PDFSlicer/log.txt
+[2025-04-12 12:29:08.358] [default] [info] Welcome to PDF Slicer
+[2025-04-12 12:29:08.358] [default] [info] Logging to file: /home/miyako/.config/com.github.junrrein.PDFSlicer/log.txt

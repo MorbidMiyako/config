@@ -1,0 +1,71 @@
+;;;; Emacs Bookmark Format Version 1;;;; -*- coding: utf-8-emacs; mode: lisp-data -*-
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("sysdesign"
+ (filename . "~/uni/y1/q4/systemdesignengineering")
+ (front-context-string)
+ (rear-context-string)
+ (position . 1)
+ (last-modified 26632 46714 565621 152000))
+("dsl"
+ (filename . "~/uni/y1/q4/domainspecificlanguage")
+ (front-context-string)
+ (rear-context-string)
+ (position . 1)
+ (last-modified 26632 46673 413822 242000))
+("seminar"
+ (filename . "~/uni/y1/q4/seminariris/root.org")
+ (front-context-string)
+ (rear-context-string)
+ (position . 1)
+ (last-modified 26632 46657 273847 526000))
+("tmp"
+ (filename . "~/uni/y1/q3/cyberphysicalsystems/assignments/assignment5/")
+ (front-context-string . "  /home/miyako/u")
+ (rear-context-string)
+ (position . 1)
+ (last-modified 26609 3438 370514 281000))
+("multiprocessors"
+ (filename . "~/uni/y1/q3/multiprocessors/root.org")
+ (front-context-string . "#+title: Root\n\n*")
+ (rear-context-string)
+ (position . 1)
+ (last-modified 26571 29510 667612 229000))
+("root.org"
+ (filename . "~/uni/y1/q3/multiprocessors/root.org")
+ (front-context-string . "#+title: Root\n\n*")
+ (rear-context-string)
+ (position . 1)
+ (last-modified 26571 29508 241363 277000))
+("parallel"
+ (filename . "~/uni/y1/q3/parallelization/root.org")
+ (front-context-string . "#+title: Root\n\n*")
+ (rear-context-string)
+ (position . 1)
+ (last-modified 26560 34432 993386 739000))
+("uni"
+ (filename . "~/uni/root.org")
+ (front-context-string . "le: Root Uni\n#+d")
+ (rear-context-string)
+ (position . 6)
+ (last-modified 26560 34420 183065 582000))
+("downloads"
+ (filename . "~/Downloads/")
+ (front-context-string . "NuSMV\n  drwxr-xr")
+ (rear-context-string . "0K Nov 19 11:04 ")
+ (position . 75)
+ (last-modified 26558 53119 826939 985000))
+("cyber physical systems"
+ (filename . "~/uni/y1/q3/cyberphysicalsystems/root.org")
+ (front-context-string . "#+title: Root\n\n*")
+ (rear-context-string)
+ (position . 1)
+ (last-modified 26558 52211 33976 116000))
+("config.el"
+ (filename . "~/.config/doom/config.el")
+ (front-context-string . "  ;;)\n\n;;(add-ho")
+ (rear-context-string . "t-query \".pdf\")\n")
+ (position . 3900)
+ (last-modified 26557 64430 19058 27000))
+)

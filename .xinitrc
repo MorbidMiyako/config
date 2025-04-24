@@ -62,8 +62,7 @@ i3 &
 #xterm -geometry 80x50+494+51 &
 #xterm -geometry 80x20+494-0 &
 #exec xterm -geometry 80x66+0+0 -name login
-exec unclutter -idle 0.1 -root &
-exec brave
+exec unclutter -idle 0.1 -root 
 
 if [[ -f /usr/bin/prime-switch ]]; then
     /usr/bin/prime-switch

@@ -1,3 +1,4 @@
+acpilight
 crack-attack
 eclipse-java-bin
 hakuneko-desktop-bin
