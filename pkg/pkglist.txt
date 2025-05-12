@@ -69,9 +69,12 @@ python-virtualenv
 ripgrep
 screen
 scrot
+shellcheck
+shfmt
 sl
 slock
 sof-firmware
+sshfs
 strace
 tailscale
 texlive-basic

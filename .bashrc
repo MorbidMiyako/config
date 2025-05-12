@@ -2,6 +2,8 @@
 # ~/.bashrc
 #
 # /usr/share/X11/xkb/symbols/us --> keymap location
+export PATH=$PATH:/home/miyako/.config/emacs/bin/ 
+export PATH=$PATH:/home/miyako/.local/lsp/bin/
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return

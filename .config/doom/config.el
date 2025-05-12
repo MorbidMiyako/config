@@ -100,3 +100,9 @@
 (setq matlab-shell-command-switches (list "-nodesktop"))
 
 (setq ein:output-area-inlined-images t)
+
+(after! eglot
+  :config
+  (set-eglot-client! 'c-mode '("clangd" "-j=3" "--clang-tidy"))
+  (set-eglot-client! 'cc-mode '("clangd" "-j=3" "--clang-tidy"))
+  )

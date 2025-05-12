@@ -9,6 +9,8 @@
 ;; To install SOME-PACKAGE from MELPA, ELPA or emacsmirror:
 ;; (package! some-package)
 (package! matlab-mode)
+(package! eglot)
+(package! treemacs)
 (package! pdf-tools)
 (package! ein)
 (package! conda)
