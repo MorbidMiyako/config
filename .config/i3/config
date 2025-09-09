@@ -96,10 +96,10 @@ bindsym $mod+t exec --no-startup-id ~/.config/i3/overlayterminal.sh "terminal_1"
 
 # Simple console
 exec_always --no-startup-id ~/.config/i3/overlayterminal.sh "terminal_2" "tmux" 16
-for_window [class="i3-scratchpad-terminal_2"] floating enable
-for_window [class="i3-scratchpad-terminal_2"] resize set 2000 1200
-for_window [class="i3-scratchpad-terminal_2"] move scratchpad
-for_window [class="i3-scratchpad-terminal_2"] border pixel 5
+for_window [class="terminal_2"] floating enable
+for_window [class="terminal_2"] resize set 2000 1200
+for_window [class="terminal_2"] move scratchpad
+for_window [class="terminal_2"] border pixel 5
 bindsym $mod+Shift+t exec --no-startup-id ~/.config/i3/overlayterminal.sh "terminal_2" "tmux" 16; [class="i3-scratchpad-terminal_2"] scratchpad show; [class="i3-scratchpad-terminal_2"] move position center
 
 # Simple calculator

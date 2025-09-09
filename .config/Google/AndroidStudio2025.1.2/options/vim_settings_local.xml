@@ -1,0 +1,257 @@
+<application>
+  <component name="VimHistorySettings">
+    <history>
+      <history-cmd>
+        <entry encoding="base64">cQ==</entry>
+        <entry encoding="base64">dw==</entry>
+        <entry encoding="base64" />
+      </history-cmd>
+    </history>
+  </component>
+  <component name="VimJumpsSettings">
+    <project id="BoodschappenTracker-e00ee3ce">
+      <jump line="42" column="0" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/java/com/example/boodschappentracker/MainActivity.kt" protocol="file" />
+      <jump line="30" column="17" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/java/com/example/boodschappentracker/MainActivity.kt" protocol="file" />
+      <jump line="1" column="0" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/res/layout/content_main.xml" protocol="file" />
+      <jump line="27" column="26" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/java/com/example/boodschappentracker/FirstFragment.kt" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/res/menu/menu_main.xml" protocol="file" />
+      <jump line="39" column="12" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/java/com/example/boodschappentracker/MainActivity.kt" protocol="file" />
+      <jump line="31" column="22" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/java/com/example/boodschappentracker/MainActivity.kt" protocol="file" />
+      <jump line="33" column="37" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/java/com/example/boodschappentracker/MainActivity.kt" protocol="file" />
+      <jump line="37" column="23" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/java/com/example/boodschappentracker/MainActivity.kt" protocol="file" />
+      <jump line="55" column="32" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/java/com/example/boodschappentracker/MainActivity.kt" protocol="file" />
+      <jump line="8" column="20" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/res/layout/content_main.xml" protocol="file" />
+      <jump line="54" column="56" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/java/com/example/boodschappentracker/MainActivity.kt" protocol="file" />
+      <jump line="33" column="0" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/java/com/example/boodschappentracker/FirstFragment.kt" protocol="file" />
+      <jump line="6" column="20" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/res/layout/fragment_first.xml" protocol="file" />
+      <jump line="45" column="8" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/java/com/example/boodschappentracker/FirstFragment.kt" protocol="file" />
+      <jump line="26" column="12" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/res/layout/fragment_first.xml" protocol="file" />
+      <jump line="33" column="52" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/res/layout/fragment_first.xml" protocol="file" />
+      <jump line="16" column="38" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/res/layout/fragment_first.xml" protocol="file" />
+      <jump line="27" column="33" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/res/layout/fragment_first.xml" protocol="file" />
+      <jump line="36" column="0" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/java/com/example/boodschappentracker/FirstFragment.kt" protocol="file" />
+      <jump line="34" column="26" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/java/com/example/boodschappentracker/FirstFragment.kt" protocol="file" />
+      <jump line="23" column="4" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/res/layout/activity_main.xml" protocol="file" />
+      <jump line="1" column="0" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/res/layout/activity_main.xml" protocol="file" />
+      <jump line="14" column="24" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/res/navigation/nav_graph.xml" protocol="file" />
+      <jump line="17" column="4" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/res/navigation/nav_graph.xml" protocol="file" />
+      <jump line="7" column="4" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/res/navigation/nav_graph.xml" protocol="file" />
+      <jump line="1" column="0" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/res/navigation/nav_graph.xml" protocol="file" />
+      <jump line="14" column="8" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/res/layout/fragment_first.xml" protocol="file" />
+      <jump line="25" column="8" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/res/layout/fragment_first.xml" protocol="file" />
+      <jump line="1" column="0" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/res/layout/recycler_view_item.xml" protocol="file" />
+      <jump line="12" column="2" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/res/layout/recycler_view_item.xml" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/res/layout/fragment_first.xml" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/res/layout/recycler_view_item.xml" protocol="file" />
+      <jump line="28" column="39" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/res/layout/fragment_first.xml" protocol="file" />
+      <jump line="13" column="6" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/java/com/example/boodschappentracker/FirstFragment.kt" protocol="file" />
+      <jump line="8" column="71" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/java/com/example/boodschappentracker/FirstFragment.kt" protocol="file" />
+      <jump line="17" column="14" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/res/layout/recycler_view_item.xml" protocol="file" />
+      <jump line="29" column="4" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/res/layout/fragment_first.xml" protocol="file" />
+      <jump line="8" column="4" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/res/layout/fragment_first.xml" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/Android/Sdk/platforms/android-36/data/res/layout/list_content.xml" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/res/layout/boodschappenlijst_item.xml" protocol="file" />
+      <jump line="11" column="4" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/res/layout/boodschappenlijst_item.xml" protocol="file" />
+      <jump line="6" column="4" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/res/layout/boodschappenlijst_item.xml" protocol="file" />
+      <jump line="12" column="4" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/res/layout/boodschappenlijst_item.xml" protocol="file" />
+      <jump line="7" column="4" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/res/layout/boodschappenlijst_item.xml" protocol="file" />
+      <jump line="17" column="4" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/res/layout/boodschappenlijst_item.xml" protocol="file" />
+      <jump line="1" column="0" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/res/layout/boodschappenlijst_item.xml" protocol="file" />
+      <jump line="34" column="46" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/res/layout/fragment_first.xml" protocol="file" />
+      <jump line="1" column="0" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/res/layout/fragment_first.xml" protocol="file" />
+      <jump line="13" column="8" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/res/layout/fragment_first.xml" protocol="file" />
+      <jump line="38" column="4" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/java/com/example/boodschappentracker/FirstFragment.kt" protocol="file" />
+      <jump line="82" column="1" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/java/com/example/boodschappentracker/FirstFragment.kt" protocol="file" />
+      <jump line="58" column="70" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/java/com/example/boodschappentracker/FirstFragment.kt" protocol="file" />
+      <jump line="55" column="35" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/java/com/example/boodschappentracker/FirstFragment.kt" protocol="file" />
+      <jump line="71" column="5" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/java/com/example/boodschappentracker/FirstFragment.kt" protocol="file" />
+      <jump line="57" column="4" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/java/com/example/boodschappentracker/MainActivity.kt" protocol="file" />
+      <jump line="43" column="84" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/java/com/example/boodschappentracker/MainActivity.kt" protocol="file" />
+      <jump line="45" column="38" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/java/com/example/boodschappentracker/MainActivity.kt" protocol="file" />
+      <jump line="49" column="4" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/java/com/example/boodschappentracker/FirstFragment.kt" protocol="file" />
+      <jump line="38" column="8" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/java/com/example/boodschappentracker/MainActivity.kt" protocol="file" />
+      <jump line="41" column="30" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/java/com/example/boodschappentracker/MainActivity.kt" protocol="file" />
+      <jump line="48" column="20" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/java/com/example/boodschappentracker/FirstFragment.kt" protocol="file" />
+      <jump line="50" column="0" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/java/com/example/boodschappentracker/FirstFragment.kt" protocol="file" />
+      <jump line="47" column="0" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/java/com/example/boodschappentracker/FirstFragment.kt" protocol="file" />
+      <jump line="60" column="0" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/java/com/example/boodschappentracker/FirstFragment.kt" protocol="file" />
+      <jump line="15" column="19" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/java/com/example/boodschappentracker/FirstFragment.kt" protocol="file" />
+      <jump line="68" column="30" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/java/com/example/boodschappentracker/FirstFragment.kt" protocol="file" />
+      <jump line="2" column="31" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/java/com/example/boodschappentracker/BoodschappenlijstRecycler.kt" protocol="file" />
+      <jump line="14" column="22" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/java/com/example/boodschappentracker/BoodschappenlijstRecycler.kt" protocol="file" />
+      <jump line="27" column="19" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/java/com/example/boodschappentracker/BoodschappenlijstRecycler.kt" protocol="file" />
+      <jump line="18" column="13" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/java/com/example/boodschappentracker/BoodschappenlijstRecycler.kt" protocol="file" />
+      <jump line="20" column="54" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/java/com/example/boodschappentracker/BoodschappenlijstRecycler.kt" protocol="file" />
+      <jump line="28" column="30" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/java/com/example/boodschappentracker/BoodschappenlijstRecycler.kt" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/res/layout/boodschappenlijst_recycler.xml" protocol="file" />
+      <jump line="6" column="3" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/res/layout/boodschappenlijst_recycler.xml" protocol="file" />
+      <jump line="18" column="34" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/res/layout/boodschappenlijst_recycler.xml" protocol="file" />
+      <jump line="4" column="4" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/res/layout/boodschappenlijst_recycler.xml" protocol="file" />
+      <jump line="22" column="8" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/res/layout/fragment_first.xml" protocol="file" />
+      <jump line="47" column="8" filename="$USER_HOME$/Android/Sdk/platforms/android-36/data/res/layout/list_content.xml" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/res/layout/content_main.xml" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/java/com/example/boodschappentracker/MainActivity.kt" protocol="file" />
+      <jump line="32" column="0" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/java/com/example/boodschappentracker/MainActivity.kt" protocol="file" />
+      <jump line="24" column="52" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/java/com/example/boodschappentracker/MainActivity.kt" protocol="file" />
+      <jump line="21" column="62" filename="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/java/com/example/boodschappentracker/MainActivity.kt" protocol="file" />
+    </project>
+    <project id="My Application-2c87550e">
+      <jump line="0" column="0" filename="$USER_HOME$/AndroidStudioProjects/MyApplication/app/src/main/java/com/example/myapplication/MainActivity.kt" protocol="file" />
+      <jump line="37" column="0" filename="$USER_HOME$/AndroidStudioProjects/MyApplication/app/src/main/java/com/example/myapplication/MainActivity.kt" protocol="file" />
+      <jump line="5541" column="26" filename="$USER_HOME$/Android/Sdk/sources/android-36/android/app/Activity.java" protocol="file" />
+      <jump line="21" column="24" filename="$USER_HOME$/AndroidStudioProjects/MyApplication/app/src/main/java/com/example/myapplication/MainActivity.kt" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_main.xml" protocol="file" />
+      <jump line="16" column="45" filename="$USER_HOME$/AndroidStudioProjects/MyApplication/app/src/main/java/com/example/myapplication/MainActivity.kt" protocol="file" />
+      <jump line="23" column="4" filename="$USER_HOME$/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_main.xml" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/AndroidStudioProjects/MyApplication/app/src/main/res/layout/content_main.xml" protocol="file" />
+      <jump line="11" column="40" filename="$USER_HOME$/AndroidStudioProjects/MyApplication/app/src/main/java/com/example/myapplication/MainActivity.kt" protocol="file" />
+      <jump line="30" column="43" filename="$USER_HOME$/AndroidStudioProjects/MyApplication/app/src/main/java/com/example/myapplication/MainActivity.kt" protocol="file" />
+      <jump line="31" column="26" filename="$USER_HOME$/AndroidStudioProjects/MyApplication/app/src/main/java/com/example/myapplication/MainActivity.kt" protocol="file" />
+      <jump line="32" column="32" filename="$USER_HOME$/AndroidStudioProjects/MyApplication/app/src/main/java/com/example/myapplication/MainActivity.kt" protocol="file" />
+    </project>
+    <project id="Testing-6a09fa9a">
+      <jump line="0" column="0" filename="$USER_HOME$/AndroidStudioProjects/Testing/app/src/main/java/com/example/testing/MainActivity.kt" protocol="file" />
+      <jump line="13" column="88" filename="$USER_HOME$/AndroidStudioProjects/Testing/app/src/main/java/com/example/testing/MainActivity.kt" protocol="file" />
+      <jump line="19" column="0" filename="$USER_HOME$/AndroidStudioProjects/Testing/app/src/main/java/com/example/testing/MainActivity.kt" protocol="file" />
+      <jump line="38" column="4" filename="$USER_HOME$/AndroidStudioProjects/Testing/app/src/main/java/com/example/testing/MainActivity.kt" protocol="file" />
+      <jump line="22" column="18" filename="$USER_HOME$/AndroidStudioProjects/Testing/app/src/main/java/com/example/testing/MainActivity.kt" protocol="file" />
+      <jump line="20" column="8" filename="$USER_HOME$/AndroidStudioProjects/Testing/app/src/main/java/com/example/testing/MainActivity.kt" protocol="file" />
+      <jump line="18" column="41" filename="$USER_HOME$/AndroidStudioProjects/Testing/app/src/main/java/com/example/testing/MainActivity.kt" protocol="file" />
+      <jump line="26" column="0" filename="$USER_HOME$/AndroidStudioProjects/Testing/app/src/main/java/com/example/testing/MainActivity.kt" protocol="file" />
+      <jump line="1" column="0" filename="$USER_HOME$/AndroidStudioProjects/Testing/app/src/main/res/layout/activity_main.xml" protocol="file" />
+      <jump line="18" column="4" filename="$USER_HOME$/AndroidStudioProjects/Testing/app/src/main/res/layout/activity_main.xml" protocol="file" />
+      <jump line="14" column="46" filename="$USER_HOME$/AndroidStudioProjects/Testing/app/src/main/java/com/example/testing/MainActivity.kt" protocol="file" />
+      <jump line="15" column="39" filename="$USER_HOME$/AndroidStudioProjects/Testing/app/src/main/java/com/example/testing/MainActivity.kt" protocol="file" />
+    </project>
+  </component>
+  <component name="VimMarksSettings">
+    <globalmarks />
+    <localmarks>
+      <file name="$USER_HOME$/AndroidStudioProjects/MyApplication/app/src/main/java/com/example/myapplication/MainActivity.kt" timestamp="1756539122182">
+        <mark key="'" line="31" column="26" />
+      </file>
+      <file name="$USER_HOME$/AndroidStudioProjects/Testing/app/src/main/res/layout/activity_main.xml" timestamp="1756539104853">
+        <mark key="&quot;" line="18" column="4" />
+      </file>
+      <file name="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/res/layout/boodschappenlijst_recycler.xml" timestamp="1756537776665">
+        <mark key="&quot;" line="4" column="4" />
+        <mark key="[" line="1" column="0" />
+        <mark key="]" line="1" column="0" />
+        <mark key="." line="1" column="0" />
+      </file>
+      <file name="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/java/com/example/boodschappentracker/MainActivity.kt" timestamp="1756538072290">
+        <mark key="&quot;" line="25" column="20" />
+        <mark key="'" line="21" column="62" />
+        <mark key="[" line="38" column="0" />
+        <mark key="]" line="38" column="0" />
+        <mark key="^" line="45" column="44" />
+        <mark key="." line="38" column="0" />
+      </file>
+      <file name="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/res/layout/boodschappenlijst_item.xml" timestamp="1756532006168">
+        <mark key="&quot;" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/java/com/example/boodschappentracker/FirstFragment.kt" timestamp="1756537776658">
+        <mark key="&quot;" line="68" column="30" />
+        <mark key="'" line="15" column="13" />
+        <mark key="^" line="45" column="4" />
+      </file>
+      <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.navigation/navigation-ui/2.6.0/1ca76b47911837a1547a8fbe1261a562ba8f1b58/navigation-ui-2.6.0-sources.jar!/androidx/navigation/ui/NavController.kt" timestamp="1756528560540">
+        <mark key="&quot;" line="39" column="25" />
+      </file>
+      <file name="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/java/com/example/boodschappentracker/BoodschappenlijstRecycler.kt" timestamp="1756537776662">
+        <mark key="&quot;" line="28" column="30" />
+        <mark key="'" line="8" column="31" />
+        <mark key="[" line="8" column="31" />
+        <mark key="]" line="8" column="31" />
+        <mark key="^" line="8" column="31" />
+        <mark key="." line="8" column="31" />
+      </file>
+      <file name="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/res/navigation/nav_graph.xml" timestamp="1756530545310">
+        <mark key="&quot;" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/res/layout/content_main.xml" timestamp="1756537776676">
+        <mark key="&quot;" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Android/Sdk/platforms/android-36/data/res/layout/list_content.xml" timestamp="1756537776673">
+        <mark key="&quot;" line="47" column="8" />
+      </file>
+      <file name="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/res/menu/menu_main.xml" timestamp="1756528454526">
+        <mark key="&quot;" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/res/layout/recycler_view_item.xml" timestamp="1756531378858">
+        <mark key="&quot;" line="17" column="14" />
+      </file>
+      <file name="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/res/layout/activity_main.xml" timestamp="1756534002916">
+        <mark key="&quot;" line="21" column="42" />
+      </file>
+      <file name="$USER_HOME$/AndroidStudioProjects/BoodschappenTracker/app/src/main/res/layout/fragment_first.xml" timestamp="1756537776669">
+        <mark key="&quot;" line="22" column="8" />
+        <mark key="'" line="34" column="46" />
+        <mark key="[" line="37" column="54" />
+        <mark key="]" line="37" column="54" />
+        <mark key="^" line="37" column="55" />
+        <mark key="." line="37" column="54" />
+      </file>
+      <file name="$USER_HOME$/AndroidStudioProjects/Testing/app/src/main/java/com/example/testing/MainActivity.kt" timestamp="1756539104867">
+        <mark key="&quot;" line="2" column="23" />
+        <mark key="^" line="16" column="4" />
+      </file>
+    </localmarks>
+  </component>
+  <component name="VimRegisterSettings">
+    <registers>
+      <register name="&quot;" type="LINE_WISE">
+        <text encoding="base64">aW1wb3J0IGNvbS5leGFtcGxlLm15YXBwbGljYXRpb24uZGF0YWJpbmRpbmcuQWN0aXZpdHlNYWluQmluZGluZwo=</text>
+      </register>
+      <register name="-" type="CHARACTER_WISE">
+        <text encoding="base64">Q29uc3RyYWludExheW91dA==</text>
+      </register>
+      <register name="." type="CHARACTER_WISE">
+        <text encoding="base64" />
+      </register>
+      <register name="0" type="LINE_WISE">
+        <text encoding="base64">aW1wb3J0IGNvbS5leGFtcGxlLm15YXBwbGljYXRpb24uZGF0YWJpbmRpbmcuQWN0aXZpdHlNYWluQmluZGluZwo=</text>
+      </register>
+      <register name="1" type="LINE_WISE">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="2" type="LINE_WISE">
+        <text encoding="base64">PCEtLTxhbmRyb2lkeC5jb25zdHJhaW50bGF5b3V0LndpZGdldC5Db25zdHJhaW50TGF5b3V0IHhtbG5zOmFuZHJvaWQ9Imh0dHA6Ly9zY2hlbWFzLmFuZHJvaWQuY29tL2Fway9yZXMvYW5kcm9pZCItLT4KPCEtLSAgICBhbmRyb2lkOmxheW91dF93aWR0aD0ibWF0Y2hfcGFyZW50Ii0tPgo8IS0tICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0ibWF0Y2hfcGFyZW50Ij4tLT4KCjwhLS08L2FuZHJvaWR4LmNvbnN0cmFpbnRsYXlvdXQud2lkZ2V0LkNvbnN0cmFpbnRMYXlvdXQ+LS0+Cg==</text>
+      </register>
+      <register name="3" type="LINE_WISE">
+        <text encoding="base64">ICAgIAo=</text>
+      </register>
+      <register name="4" type="LINE_WISE">
+        <text encoding="base64">fQo=</text>
+      </register>
+      <register name="5" type="LINE_WISE">
+        <text encoding="base64">fQo=</text>
+      </register>
+      <register name="6" type="CHARACTER_WISE">
+        <text encoding="base64">IHsKICAgIGNsYXNzIEN1c3RvbUFkYXB0ZXI=</text>
+      </register>
+      <register name="7" type="LINE_WISE">
+        <text encoding="base64">Y2xhc3MgQm9vZHNjaGFwcGVubGlqc3RSZWN5Y2xlciB7Cg==</text>
+      </register>
+      <register name="8" type="LINE_WISE">
+        <text encoding="base64">CiAgICAvKioKICAgICAqIFByb3ZpZGUgYSByZWZlcmVuY2UgdG8gdGhlIHR5cGUgb2Ygdmlld3MgdGhhdCB5b3UgYXJlIHVzaW5nCiAgICAgKiAoY3VzdG9tIFZpZXdIb2xkZXIpCiAgICAgKi8KICAgIGNsYXNzIFZpZXdIb2xkZXIodmlldzogVmlldykgOiBSZWN5Y2xlclZpZXcuVmlld0hvbGRlcih2aWV3KSB7CiAgICAgICAgdmFsIHRleHRWaWV3OiBUZXh0VmlldwoKICAgICAgICBpbml0IHsKICAgICAgICAgICAgLy8gRGVmaW5lIGNsaWNrIGxpc3RlbmVyIGZvciB0aGUgVmlld0hvbGRlcidzIFZpZXcKICAgICAgICAgICAgdGV4dFZpZXcgPSB2aWV3LmZpbmRWaWV3QnlJZChSLmlkLmJvb2RzY2hhcHBlbmxpanN0UmVjeWNsZXIpCiAgICAgICAgfQogICAgfQoKICAgIC8vIENyZWF0ZSBuZXcgdmlld3MgKGludm9rZWQgYnkgdGhlIGxheW91dCBtYW5hZ2VyKQogICAgb3ZlcnJpZGUgZnVuIG9uQ3JlYXRlVmlld0hvbGRlcih2aWV3R3JvdXA6IFZpZXdHcm91cCwgdmlld1R5cGU6IEludCk6IFZpZXdIb2xkZXIgewogICAgICAgIC8vIENyZWF0ZSBhIG5ldyB2aWV3LCB3aGljaCBkZWZpbmVzIHRoZSBVSSBvZiB0aGUgbGlzdCBpdGVtCiAgICAgICAgdmFsIHZpZXcgPSBMYXlvdXRJbmZsYXRlci5mcm9tKHZpZXdHcm91cC5jb250ZXh0KQogICAgICAgICAgICAuaW5mbGF0ZShSLmxheW91dC5mcmFnbWVudF9maXJzdCwgdmlld0dyb3VwLCBmYWxzZSkKCiAgICAgICAgcmV0dXJuIFZpZXdIb2xkZXIodmlldykKICAgIH0KCiAgICAvLyBSZXBsYWNlIHRoZSBjb250ZW50cyBvZiBhIHZpZXcgKGludm9rZWQgYnkgdGhlIGxheW91dCBtYW5hZ2VyKQogICAgb3ZlcnJpZGUgZnVuIG9uQmluZFZpZXdIb2xkZXIodmlld0hvbGRlcjogVmlld0hvbGRlciwgcG9zaXRpb246IEludCkgewoKICAgICAgICAvLyBHZXQgZWxlbWVudCBmcm9tIHlvdXIgZGF0YXNldCBhdCB0aGlzIHBvc2l0aW9uIGFuZCByZXBsYWNlIHRoZQogICAgICAgIC8vIGNvbnRlbnRzIG9mIHRoZSB2aWV3IHdpdGggdGhhdCBlbGVtZW50CiAgICAgICAgdmlld0hvbGRlci50ZXh0Vmlldy50ZXh0ID0gZGF0YVNldFtwb3NpdGlvbl0KICAgIH0KCiAgICAvLyBSZXR1cm4gdGhlIHNpemUgb2YgeW91ciBkYXRhc2V0IChpbnZva2VkIGJ5IHRoZSBsYXlvdXQgbWFuYWdlcikKICAgIG92ZXJyaWRlIGZ1biBnZXRJdGVtQ291bnQoKSA9IGRhdGFTZXQuc2l6ZQo=</text>
+      </register>
+      <register name="9" type="LINE_WISE">
+        <text encoding="base64">ICAgICAgICBzdXBlci5vbkNyZWF0ZShzYXZlZEluc3RhbmNlU3RhdGUpCg==</text>
+      </register>
+      <register name=":" type="CHARACTER_WISE">
+        <text encoding="base64">dw==</text>
+      </register>
+    </registers>
+  </component>
+  <component name="VimSearchSettings">
+    <search>
+      <last-offset encoding="base64" />
+      <last-dir encoding="base64">MQ==</last-dir>
+      <show-last encoding="base64">ZmFsc2U=</show-last>
+    </search>
+  </component>
+  <component name="VimVariables">
+    <vim-variables />
+  </component>
+</application>

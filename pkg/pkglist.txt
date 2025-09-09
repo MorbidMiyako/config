@@ -39,6 +39,7 @@ jdk-openjdk
 jdk11-openjdk
 jdk17-openjdk
 jdk8-openjdk
+kitty
 libimobiledevice
 libpulse
 linux
@@ -48,8 +49,8 @@ linux-lts
 man-db
 mtools
 mupdf
-neofetch
 neovim
+networkmanager
 noto-fonts-emoji
 npm
 nvidia-dkms
@@ -101,7 +102,6 @@ texlive-publishers
 texlive-xetex
 tmux
 ttf-dejavu
-ttf-font-awesome
 ttf-nerd-fonts-symbols
 ttf-nerd-fonts-symbols-mono
 unarchiver

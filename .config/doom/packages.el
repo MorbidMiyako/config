@@ -14,6 +14,11 @@
 (package! pdf-tools)
 (package! ein)
 (package! conda)
+(package! irony-eldoc)
+(package! company-irony)
+(package! flycheck-irony)
+(package! rtags)
+
 
 ;; To install a package directly from a remote git repo, you must specify a
 ;; `:recipe'. You'll find documentation on what `:recipe' accepts here:

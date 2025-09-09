@@ -1,0 +1,18 @@
+<application>
+  <component name="DimensionService">
+    <location key="WELCOME_SCREEN.0.0.2880.1800" x="1440" y="911" />
+  </component>
+  <component name="WindowManager">
+    <frame x="0" y="-22" width="1440" height="1822" extendedState="6" />
+  </component>
+  <component name="WindowStateApplicationService">
+    <state width="607" height="137" key="ShowUsagesActions.dimensionServiceKey.ideScale=125" timestamp="1756539121266">
+      <screen x="0" y="0" width="2880" height="1800" />
+    </state>
+    <state width="607" height="137" key="ShowUsagesActions.dimensionServiceKey.ideScale=125/0.0.2880.1800" timestamp="1756539121266" />
+    <state x="1440" y="911" key="WELCOME_SCREEN" timestamp="1756527494422">
+      <screen x="0" y="0" width="2880" height="1800" />
+    </state>
+    <state x="1440" y="911" key="WELCOME_SCREEN/0.0.2880.1800" timestamp="1756527494422" />
+  </component>
+</application>

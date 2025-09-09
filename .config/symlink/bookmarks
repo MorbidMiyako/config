@@ -2,7 +2,13 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("remote"
+(("intern"
+ (filename . "~/uni/y2/q1/intern/")
+ (front-context-string)
+ (rear-context-string . "15 Sep  4 11:40 ")
+ (position . 81)
+ (last-modified 26809 24238 931376 766000))
+("remote"
  (filename . "/ssh:pynq:~/")
  (front-context-string . "2024-2025-tutori")
  (rear-context-string . " 7 Apr 23 13:19 ")

@@ -13,5 +13,6 @@ echo "pgrep -fa "$1""
 echo $running
 
 if ! [[ $running ]]; then
-    xterm -class "i3-scratchpad-$1" -fa Dejavu -fs $3 -fc Monospace -e $2
+    #xterm -title "i3-scratchpad-$1" -fa Dejavu -fs $3 -fc Monospace -e $2
+    kitty --title "i3-scratchpad-$1" 
 fi

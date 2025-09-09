@@ -1,0 +1,65 @@
+2025-09-07 12:32:42,264 - MainThread - WARNING - eduvpn.keyring - keyring.py:71 - error when checking if keyring is available: g-dbus-error-quark: The name is not activatable (2)
+2025-09-07 12:32:42,264 - MainThread - WARNING - eduvpn.app - app.py:157 - Secure keyring not available, reverting to insecure file keyring!
+2025-09-07 12:33:14,082 - MainThread - ERROR - eduvpn.nm - nm.py:1003 - add connection error: nm-client-error-quark: NetworkManager is not running (1)
+2025-09-07 12:33:51,622 - call-model - WARNING - eduvpn.nm - nm.py:780 - no connection to deactivate of uuid <module 'uuid' from '/usr/lib/python3.13/uuid.py'>
+2025-09-07 12:34:06,549 - MainThread - WARNING - eduvpn.keyring - keyring.py:71 - error when checking if keyring is available: g-dbus-error-quark: The name is not activatable (2)
+2025-09-07 12:34:06,549 - MainThread - WARNING - eduvpn.app - app.py:157 - Secure keyring not available, reverting to insecure file keyring!
+2025-09-07 12:34:16,693 - MainThread - ERROR - eduvpn.nm - nm.py:1003 - add connection error: nm-client-error-quark: NetworkManager is not running (1)
+2025-09-07 12:37:01,965 - MainThread - WARNING - eduvpn.keyring - keyring.py:71 - error when checking if keyring is available: g-dbus-error-quark: The name is not activatable (2)
+2025-09-07 12:37:01,965 - MainThread - WARNING - eduvpn.app - app.py:157 - Secure keyring not available, reverting to insecure file keyring!
+2025-09-07 12:42:21,892 - MainThread - WARNING - eduvpn.keyring - keyring.py:71 - error when checking if keyring is available: g-dbus-error-quark: The name is not activatable (2)
+2025-09-07 12:42:21,893 - MainThread - WARNING - eduvpn.app - app.py:157 - Secure keyring not available, reverting to insecure file keyring!
+2025-09-07 12:54:22,539 - MainThread - WARNING - eduvpn.keyring - keyring.py:71 - error when checking if keyring is available: g-dbus-error-quark: The name is not activatable (2)
+2025-09-07 12:54:22,539 - MainThread - WARNING - eduvpn.app - app.py:157 - Secure keyring not available, reverting to insecure file keyring!
+2025-09-07 12:57:04,523 - MainThread - WARNING - eduvpn.keyring - keyring.py:71 - error when checking if keyring is available: g-dbus-error-quark: The name is not activatable (2)
+2025-09-07 12:57:04,524 - MainThread - WARNING - eduvpn.app - app.py:157 - Secure keyring not available, reverting to insecure file keyring!
+2025-09-07 12:58:31,758 - MainThread - WARNING - eduvpn.keyring - keyring.py:71 - error when checking if keyring is available: g-dbus-error-quark: The name is not activatable (2)
+2025-09-07 12:58:31,759 - MainThread - WARNING - eduvpn.app - app.py:157 - Secure keyring not available, reverting to insecure file keyring!
+2025-09-07 12:59:05,058 - MainThread - WARNING - eduvpn.keyring - keyring.py:71 - error when checking if keyring is available: g-dbus-error-quark: The name is not activatable (2)
+2025-09-07 12:59:05,058 - MainThread - WARNING - eduvpn.app - app.py:157 - Secure keyring not available, reverting to insecure file keyring!
+2025-09-07 12:59:18,743 - call-model - ERROR - /usr/lib/python3.13/site-packages/eduvpn/utils.py - utils.py:143 - exception occurred: Failed to obtain a VPN configuration for server: 'https://tue.eduvpn.nl/'. The cause of the error is: Timeout reached contacting URL: 'https://tue.eduvpn.nl/portal/api/v3/connect'.
+2025-09-07 12:59:58,472 - MainThread - WARNING - eduvpn.keyring - keyring.py:71 - error when checking if keyring is available: g-dbus-error-quark: The name is not activatable (2)
+2025-09-07 12:59:58,472 - MainThread - WARNING - eduvpn.app - app.py:157 - Secure keyring not available, reverting to insecure file keyring!
+2025-09-07 13:00:00,839 - MainThread - ERROR - eduvpn.nm - nm.py:1003 - add connection error: nm-client-error-quark: NetworkManager is not running (1)
+2025-09-07 13:00:40,216 - MainThread - WARNING - eduvpn.keyring - keyring.py:71 - error when checking if keyring is available: g-dbus-error-quark: The name is not activatable (2)
+2025-09-07 13:00:40,216 - MainThread - WARNING - eduvpn.app - app.py:157 - Secure keyring not available, reverting to insecure file keyring!
+2025-09-07 14:22:21,929 - MainThread - WARNING - eduvpn.keyring - keyring.py:71 - error when checking if keyring is available: g-dbus-error-quark: The name is not activatable (2)
+2025-09-07 14:22:21,929 - MainThread - WARNING - eduvpn.app - app.py:157 - Secure keyring not available, reverting to insecure file keyring!
+2025-09-08 11:40:09,201 - MainThread - WARNING - eduvpn.keyring - keyring.py:71 - error when checking if keyring is available: g-dbus-error-quark: The name is not activatable (2)
+2025-09-08 11:40:09,201 - MainThread - WARNING - eduvpn.app - app.py:157 - Secure keyring not available, reverting to insecure file keyring!
+2025-09-08 11:40:09,215 - MainThread - ERROR - /usr/lib/python3.13/site-packages/eduvpn/utils.py - utils.py:28 - Unhandled exception
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/eduvpn/ui/ui.py", line 680, in update_connection_validity
+    self.eduvpn_app.enter_SessionExpiredState()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/site-packages/eduvpn/ui/app.py", line 126, in enter_SessionExpiredState
+    self.connection_notification.show(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        title=_("Session expired"),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        message=_("Your session has expired. You have been disconnected from the VPN."),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/lib/python3.13/site-packages/eduvpn/notify.py", line 29, in show
+    self.notification.show()  # type: ignore
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+gi.repository.GLib.GError: g-dbus-error-quark: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable (2)
+2025-09-09 09:25:54,592 - MainThread - ERROR - /usr/lib/python3.13/site-packages/eduvpn/utils.py - utils.py:28 - Unhandled exception
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/eduvpn/ui/ui.py", line 680, in update_connection_validity
+    self.eduvpn_app.enter_SessionExpiredState()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/site-packages/eduvpn/ui/app.py", line 126, in enter_SessionExpiredState
+    self.connection_notification.show(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        title=_("Session expired"),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        message=_("Your session has expired. You have been disconnected from the VPN."),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/lib/python3.13/site-packages/eduvpn/notify.py", line 29, in show
+    self.notification.show()  # type: ignore
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+gi.repository.GLib.GError: g-dbus-error-quark: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable (2)
